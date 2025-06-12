@@ -1,4 +1,5 @@
-import copy, os, pickle, resource, numpy as np
+import copy 
+import numpy as np
 #from processify import processify
 from scipy.io import readsav
 

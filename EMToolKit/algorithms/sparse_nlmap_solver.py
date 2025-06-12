@@ -1,5 +1,5 @@
 import time
-import resource
+# import resource
 import numpy as np
 from tqdm import tqdm
 
@@ -36,7 +36,7 @@ class nlmap_operator(LinearOperator):
 		return self
 
 import time
-import resource
+# import resource
 import numpy as np
 
 # Subroutine to do the inversion. Uses the nolinear mapping and iteration from Plowman & Caspi 2020 to ensure positivity of solutions.
